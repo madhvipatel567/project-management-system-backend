@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Task Repetition</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Manrope", sans-serif;
+        }
+
+        .Tms {
+            background-color: #130146;
+            max-width: 600px;
+            margin: 50px auto;
+            border-radius: 10px;
+        }
+
+        table tbody tr td {
+            padding: 10px 30px;
+        }
+
+        .logo img {
+            width: 150px;
+            padding: 20px 15px;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+            color: #fff;
+            font-family: "Manrope", sans-serif;
+            margin: 0;
+            font-weight: 400;
+        }
+
+        p span {
+            font-weight: 600;
+        }
+
+        h2 {
+            color: #fff;
+            font-family: "Manrope", sans-serif;
+            font-size: 24px;
+            margin: 0;
+            font-weight: 600;
+        }
+
+        h2 span {
+            font-weight: 600;
+        }
+
+        h5 {
+            font-size: 16px;
+            margin: 0;
+            color: white;
+            font-weight: 400;
+        }
+
+        h5 span {
+            font-weight: 600;
+        }
+
+        h6 {
+            margin: 0;
+            color: white;
+            font-size: 18px;
+        }
+
+
+
+        @media (max-width: 500px) {
+            .Tms {
+                margin: 15px 5px;
+            }
+        }
+
+        @media (max-width: 460px) {
+
+            table tbody tr td {
+                padding: 10px 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="Tms">
+        <table>
+            <tbody style="padding: 20px 0;
+            display: block;">
+                <tr>
+                    <td valign="top" style="padding: 0;">
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td class="logo" style="text-align: center;">
+                                        <svg width="132" height="38" viewBox="0 0 132 38" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M33.3225 1H4.67746C2.64645 1 1 2.64645 1 4.67746V33.3225C1 35.3535 2.64645 37 4.67746 37H33.3225C35.3535 37 37 35.3535 37 33.3225V4.67746C37 2.64645 35.3535 1 33.3225 1Z"
+                                                fill="white" stroke="#130146" stroke-width="1.08"
+                                                stroke-miterlimit="22.93" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M25.0964 26.3732C25.5589 26.3732 26.1718 26.298 26.9389 26.1439V31.4081C25.9913 31.7917 24.7881 31.9834 23.3291 31.9834C20.6895 31.9834 18.6853 31.2389 17.3166 29.7536C15.9479 28.2684 15.2598 26.204 15.2598 23.5681V5.51172H22.2161V12.1597V23.5719C22.2161 24.4931 22.4906 25.1925 23.0433 25.6663C23.5923 26.1401 24.2804 26.377 25.1002 26.377L25.0964 26.3732Z"
+                                                fill="#130146" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M22.2161 21.1582C19.6705 21.4177 17.3053 22.2035 15.2598 23.3955V23.5722C15.2598 26.2119 15.9441 28.2725 17.3166 29.7577C18.6853 31.243 20.6895 31.9875 23.3291 31.9875C24.7881 31.9875 25.9913 31.7958 26.9389 31.4122V26.148C26.1718 26.3021 25.5552 26.3773 25.0964 26.3773C24.2767 26.3773 23.5923 26.1405 23.0396 25.6667C22.4868 25.1929 22.2123 24.4935 22.2123 23.5722V21.162L22.2161 21.1582Z"
+                                                fill="#9172B3" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M26.9428 26.2051C23.5549 26.8594 20.5355 28.4123 18.2305 30.5706C19.5277 31.5145 21.2273 31.9882 23.333 31.9882C24.792 31.9882 25.9952 31.7965 26.9428 31.4129V26.2088V26.2051Z"
+                                                fill="#FFCB11" />
+                                            <path d="M25.9684 10.5625H11.5293V15.6726H25.9684V10.5625Z"
+                                                fill="#130146" />
+                                            <path
+                                                d="M50.11 27V14.29H45.2V12.6H56.8V14.29H51.89V27H50.11ZM60.0559 27.3C59.2493 27.3 58.5726 27.1533 58.0259 26.86C57.4859 26.56 57.0759 26.1667 56.7959 25.68C56.5226 25.1933 56.3859 24.66 56.3859 24.08C56.3859 23.5133 56.4926 23.0233 56.7059 22.61C56.9259 22.19 57.2326 21.8433 57.6259 21.57C58.0193 21.29 58.4893 21.07 59.0359 20.91C59.5493 20.77 60.1226 20.65 60.7559 20.55C61.3959 20.4433 62.0426 20.3467 62.6959 20.26C63.3493 20.1733 63.9593 20.09 64.5259 20.01L63.8859 20.38C63.9059 19.42 63.7126 18.71 63.3059 18.25C62.9059 17.79 62.2126 17.56 61.2259 17.56C60.5726 17.56 59.9993 17.71 59.5059 18.01C59.0193 18.3033 58.6759 18.7833 58.4759 19.45L56.7859 18.94C57.0459 17.9933 57.5493 17.25 58.2959 16.71C59.0426 16.17 60.0259 15.9 61.2459 15.9C62.2259 15.9 63.0659 16.0767 63.7659 16.43C64.4726 16.7767 64.9793 17.3033 65.2859 18.01C65.4393 18.3433 65.5359 18.7067 65.5759 19.1C65.6159 19.4867 65.6359 19.8933 65.6359 20.32V27H64.0559V24.41L64.4259 24.65C64.0193 25.5233 63.4493 26.1833 62.7159 26.63C61.9893 27.0767 61.1026 27.3 60.0559 27.3ZM60.3259 25.81C60.9659 25.81 61.5193 25.6967 61.9859 25.47C62.4593 25.2367 62.8393 24.9333 63.1259 24.56C63.4126 24.18 63.5993 23.7667 63.6859 23.32C63.7859 22.9867 63.8393 22.6167 63.8459 22.21C63.8593 21.7967 63.8659 21.48 63.8659 21.26L64.4859 21.53C63.9059 21.61 63.3359 21.6867 62.7759 21.76C62.2159 21.8333 61.6859 21.9133 61.1859 22C60.6859 22.08 60.2359 22.1767 59.8359 22.29C59.5426 22.3833 59.2659 22.5033 59.0059 22.65C58.7526 22.7967 58.5459 22.9867 58.3859 23.22C58.2326 23.4467 58.1559 23.73 58.1559 24.07C58.1559 24.3633 58.2293 24.6433 58.3759 24.91C58.5293 25.1767 58.7626 25.3933 59.0759 25.56C59.3959 25.7267 59.8126 25.81 60.3259 25.81ZM72.3159 27.29C71.0293 27.29 69.9726 27.01 69.1459 26.45C68.3259 25.8833 67.8226 25.0933 67.6359 24.08L69.4559 23.79C69.6026 24.3767 69.9393 24.8433 70.4659 25.19C70.9926 25.53 71.6459 25.7 72.4259 25.7C73.1659 25.7 73.7459 25.5467 74.1659 25.24C74.5859 24.9333 74.7959 24.5167 74.7959 23.99C74.7959 23.6833 74.7259 23.4367 74.5859 23.25C74.4459 23.0567 74.1559 22.8767 73.7159 22.71C73.2826 22.5433 72.6259 22.3433 71.7459 22.11C70.7926 21.8567 70.0426 21.5933 69.4959 21.32C68.9493 21.0467 68.5593 20.73 68.3259 20.37C68.0926 20.01 67.9759 19.5733 67.9759 19.06C67.9759 18.4267 68.1493 17.8733 68.4959 17.4C68.8426 16.92 69.3259 16.55 69.9459 16.29C70.5726 16.03 71.2993 15.9 72.1259 15.9C72.9459 15.9 73.6793 16.03 74.3259 16.29C74.9726 16.55 75.4926 16.92 75.8859 17.4C76.2859 17.8733 76.5226 18.4267 76.5959 19.06L74.7759 19.39C74.6893 18.81 74.4093 18.3533 73.9359 18.02C73.4693 17.6867 72.8659 17.51 72.1259 17.49C71.4259 17.4633 70.8559 17.5867 70.4159 17.86C69.9826 18.1333 69.7659 18.5033 69.7659 18.97C69.7659 19.23 69.8459 19.4533 70.0059 19.64C70.1726 19.8267 70.4759 20.0033 70.9159 20.17C71.3626 20.3367 72.0093 20.5267 72.8559 20.74C73.8093 20.98 74.5593 21.2433 75.1059 21.53C75.6593 21.81 76.0526 22.1433 76.2859 22.53C76.5193 22.91 76.6359 23.38 76.6359 23.94C76.6359 24.98 76.2526 25.8 75.4859 26.4C74.7193 26.9933 73.6626 27.29 72.3159 27.29ZM78.8314 27L78.8414 12.6H80.6414V21.4L85.1714 16.2H87.4814L82.7114 21.6L88.0414 27H85.5514L80.6414 21.8V27H78.8314ZM89.0367 27V12.6H90.6567L96.0967 24.07L101.507 12.6H103.147V26.99H101.457V16.51L96.5667 27H95.6167L90.7267 16.51V27H89.0367ZM111.781 27.3C110.794 27.3 109.894 27.1267 109.081 26.78C108.267 26.4333 107.567 25.9367 106.981 25.29C106.394 24.6367 105.941 23.85 105.621 22.93C105.307 22.0033 105.151 20.96 105.151 19.8C105.151 18.2667 105.424 16.94 105.971 15.82C106.517 14.7 107.287 13.8367 108.281 13.23C109.274 12.6167 110.441 12.31 111.781 12.31C113.394 12.31 114.694 12.6867 115.681 13.44C116.667 14.1867 117.347 15.21 117.721 16.51L115.921 16.88C115.621 16.0067 115.127 15.31 114.441 14.79C113.754 14.27 112.897 14.01 111.871 14.01C110.797 14.0033 109.904 14.2433 109.191 14.73C108.484 15.21 107.951 15.8867 107.591 16.76C107.231 17.6333 107.047 18.6467 107.041 19.8C107.034 20.9467 107.211 21.9533 107.571 22.82C107.931 23.6867 108.467 24.3667 109.181 24.86C109.901 25.3467 110.797 25.5933 111.871 25.6C112.797 25.6067 113.577 25.43 114.211 25.07C114.844 24.71 115.334 24.19 115.681 23.51C116.027 22.83 116.237 22.0133 116.311 21.06H113.251V19.59H118.191C118.211 19.7233 118.221 19.8833 118.221 20.07C118.227 20.25 118.231 20.3733 118.231 20.44C118.231 21.7533 117.984 22.93 117.491 23.97C117.004 25.0033 116.281 25.8167 115.321 26.41C114.367 27.0033 113.187 27.3 111.781 27.3ZM120.228 27V12.6H125.918C126.058 12.6 126.225 12.6067 126.418 12.62C126.611 12.6267 126.798 12.6467 126.978 12.68C127.758 12.8 128.411 13.0667 128.938 13.48C129.471 13.8933 129.871 14.4167 130.138 15.05C130.405 15.6767 130.538 16.3733 130.538 17.14C130.538 18.2533 130.248 19.22 129.668 20.04C129.088 20.8533 128.238 21.3633 127.118 21.57L126.438 21.68H122.008V27H120.228ZM128.798 27L125.958 21.14L127.718 20.6L130.838 27H128.798ZM122.008 19.99H125.858C125.985 19.99 126.128 19.9833 126.288 19.97C126.455 19.9567 126.611 19.9333 126.758 19.9C127.218 19.7933 127.591 19.6 127.878 19.32C128.171 19.0333 128.385 18.7 128.518 18.32C128.651 17.9333 128.718 17.54 128.718 17.14C128.718 16.74 128.651 16.35 128.518 15.97C128.385 15.5833 128.171 15.2467 127.878 14.96C127.591 14.6733 127.218 14.48 126.758 14.38C126.611 14.34 126.455 14.3167 126.288 14.31C126.128 14.2967 125.985 14.29 125.858 14.29H122.008V19.99Z"
+                                                fill="white" />
+                                        </svg>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding: 0;">
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td style="text-align: center;">
+                                        <h6>It's Time to Get Your Task Together!</h6>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding: 0;">
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <h5>Hello there <span></span></p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding: 0;">
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p>Just a friendly reminder that you have a task assigned to you - <span>
+                                                (<%= task.taskName %>)
+                                            </span>!
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding: 0;">
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p>So let's get cracking, shall we? We know you're capable of amazing things, so
+                                            let's see you knock this one out of the stadium. We're rooting for you!
+                                            Remember, you're not just any old task manager user. You're a superhero with
+                                            the power to conquer any challenge that comes your way. So put on your cape
+                                            and get to work!
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding: 0;">
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td style="width:35%">
+                                        <h5>Due date</h5>
+                                    </td>
+                                    <td>
+                                        <h5>
+                                            <%= task.endingDateTime %>
+                                        </h5>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding: 0;">
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td style="width:35%">
+                                        <h5>Priority</h5>
+                                    </td>
+                                    <td>
+                                        <h5>
+                                            <%= task.priority %>
+                                        </h5>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding: 0;">
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td style="width:35%">
+                                        <h5>Task name</h5>
+                                    </td>
+                                    <td>
+                                        <h5>
+                                            <%= task.taskName %>
+                                        </h5>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding: 0;">
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr style="    vertical-align: text-bottom;">
+                                    <td style="width:35%">
+                                        <h5>Task details </h5>
+                                    </td>
+                                    <td>
+                                        <h5 style="color:white !important">
+                                            <%- task.taskDescription %>
+                                        </h5>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding: 0;">
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <h5>Best regards,
+
+                                        </h5>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding: 0;">
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <h5>Your friendly task management system
+                                        </h5>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+
+</html>
